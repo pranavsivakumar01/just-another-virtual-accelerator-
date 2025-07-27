@@ -10,6 +10,7 @@ class Constructor {
 
 public class Main {
     public static void main(String[] args) {
-        Constructor obj = new Constructor(); // Constructor gets called
+        @SuppressWarnings("unused")
+		Constructor obj = new Constructor(); // Constructor gets called
     }
 }
